@@ -105,6 +105,71 @@ h1{
     align-items: flex-end;
     }
 
+    #contact{
+       background-image: url(../Assets/Images/headerbackBack.png);
+        background-size: cover;
+        background-position: right;
+        padding: 2em 4em;
+        width: 100%;
+        margin: 50px 0;
+        border-radius: 20px;
+    
+    }
+    
+    #contact h3{
+        color: #ffffff;
+        display: block;
+        font-family: 'sacramento' , cursive;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    #contact input , #contact textarea , #contact button{
+        font-family: 'roboto' , sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        border-radius: 20px;
+    }
+    
+    fieldset{
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact input , #contact textarea{
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+        margin: 0 0 5px;
+        padding: 10px;
+        color: #000000;
+    }
+    
+    #contact textarea{
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+    }
+    
+    #contact button{
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background-color: #c4335c;
+        color: #ffffff;
+        padding: 10px;
+        font-size: 16px;
+    
+    }
+    
+    #contact input:focus, #contact textarea:focus{
+        border: 2px solid #f01313;
+    }
+    
+    
 
 
 
