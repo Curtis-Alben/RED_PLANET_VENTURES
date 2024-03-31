@@ -1,6 +1,8 @@
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .topNavHome{
@@ -54,7 +56,7 @@ body {
 .headerSection{
     background-image: url(../Assets/Images/homePageHeader.png);
     background-size: cover;
-    height: 600px;
+   
 }
 
 .headerFlex{
@@ -123,7 +125,7 @@ p1 {
 
 h5{
     color: aqua;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h6{
@@ -244,6 +246,56 @@ p2 {
         height: 50vh;
     }
 
+    h7{
+        color: aqua;
+
+    }
+
+
+    h8{
+        color: #41033a;
+        font-size:30px;
+    }
+
+    h9{
+      font-size: 25px; 
+      
+    }
+
+    h10{
+        font-size: 25px;
+        
+    }
+
+    h11{
+        font-size: 25px;
+        
+    }
+
+    h12{
+        font-size: 25px;
+    }
+    
+    
+
+
+    .flexItemn4{
+        padding: 10px;
+        flex: 30%;
+    }
+
+    .flexItemn4 img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    @media (max-width: 800px){
+        .flexContainer{
+            flex-direction: column;
+        }
+    }
 
     
 
