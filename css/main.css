@@ -9,8 +9,7 @@ body {
     overflow: hidden;
     background-color: whitesmoke;
     border-radius: 50%;
-    margin-left: 1em;
-    margin-top: 1em;
+    
     
 }
 
@@ -65,6 +64,7 @@ body {
     justify-content: flex-start;
     align-items: flex-end;
     padding: 5em;
+    width: 100%;
 }
 
 
@@ -138,6 +138,7 @@ p2 {
 
 
 
+
 .flexContainer2{
     display: flex;
     flex-direction: row-reverse;
@@ -158,6 +159,10 @@ p2 {
     width: 100%;
     align-items: flex-end;
 
+    }
+
+    .flexContainer3{
+        text-align: center;
     }
 
     #contact{
@@ -254,26 +259,26 @@ p2 {
 
     h8{
         color: #41033a;
-        font-size:30px;
+        font-size:40px;
     }
 
     h9{
-      font-size: 25px; 
+      font-size: 20px; 
       
     }
 
     h10{
-        font-size: 25px;
+        font-size: 20px;
         
     }
 
     h11{
-        font-size: 25px;
+        font-size: 20px;
         
     }
 
     h12{
-        font-size: 25px;
+        font-size: 20px;
     }
     
     
@@ -292,10 +297,65 @@ p2 {
     }
 
     @media (max-width: 800px){
-        .flexContainer{
+        .flexContainer4{
             flex-direction: column;
         }
     }
+
+    p3{
+       font-size: 15px;
+    }
+    
+    
+    p4{
+        font-size: 15px;
+    }
+
+
+    p5{
+        font-size: 15px;
+    }
+
+    p6{
+        font-size: 15px;
+    }
+
+    .button{
+        background-color: #f01313;
+        border: #000000;
+        color: #f01313;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .flightsHeader{
+        position: relative;
+        text-align: center;
+        color: #f3f3f3;
+    }
+
+    
+    .bookAFlight{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: monospace;
+        font-size: 100px;
+    }
+
+
+
+
+    
+
+    
+
 
     
 
