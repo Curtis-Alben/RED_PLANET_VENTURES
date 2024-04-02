@@ -24,6 +24,7 @@ body {
 
 .topNavCenterHome{
     float: right;
+    border-radius: 15px;
 }
 
 .topNavCenterHome input[type=text] {
@@ -35,12 +36,14 @@ body {
     margin-left: 8px;
     margin-right: 8px;
     font-size: 17px;
+    border-radius: 15px;
 }
 
 .topNavCenterHome a.active{
     background-color: white;
     color: red;
     opacity: 0.8;
+    border-radius: 15px;
 
 }
 
@@ -75,15 +78,21 @@ body{
     margin: 0;
 }
 
+.purple{
+background-color: rgb(73, 5, 73);
+padding: 2em 0;
+
+}
+
 .flexContainer{
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-    color: aliceblue;
+    color: rgb(77, 4, 102);
+    padding: 0 1em;
+    align-items: flex-start;
 }
 
 .flexItem2{
@@ -143,7 +152,7 @@ p2 {
     display: flex;
     flex-direction: row-reverse;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     justify-content: flex-end;
     align-items: center;
     background-color: rgb(255, 255, 255);
@@ -163,7 +172,10 @@ p2 {
 
     .flexContainer3{
         text-align: center;
+        color: #ffffff;
     }
+
+   
 
     #contact{
        background-image: url(../Assets/Images/headerbackBack.png);
@@ -258,35 +270,39 @@ p2 {
 
 
     h8{
-        color: #41033a;
+        color: #ffffff;
         font-size:40px;
     }
 
     h9{
-      font-size: 20px; 
+      font-size: 20px;
+      color: #ffffff; 
       
     }
 
     h10{
         font-size: 20px;
+        color: #ffffff;
         
     }
 
     h11{
         font-size: 20px;
-        
+        color: #ffffff;
     }
 
     h12{
         font-size: 20px;
+        color: #f3f3f3;
     }
     
     
 
 
     .flexItemn4{
-        padding: 10px;
+        padding: 2em;
         flex: 30%;
+        
     }
 
     .flexItemn4 img{
@@ -294,6 +310,9 @@ p2 {
         height: 300px;
         object-fit: cover;
         overflow: hidden;
+        border-radius: 14px;
+        margin-bottom: 20px;
+        
     }
 
     @media (max-width: 800px){
@@ -304,33 +323,43 @@ p2 {
 
     p3{
        font-size: 15px;
+       color: white;
+      
+       
     }
     
     
     p4{
         font-size: 15px;
+        color: white;
     }
 
 
     p5{
         font-size: 15px;
+        color: white;
     }
 
     p6{
         font-size: 15px;
+        color: white;
     }
 
-    .button{
+    button {
         background-color: #f01313;
         border: #000000;
-        color: #f01313;
+        color: #000000;
         padding: 15px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 30px;
-        margin: 4px 2px;
+        margin: auto;
         cursor: pointer;
+        border-radius: 14px;
+        display: block;
+
+
     }
 
     .flightsHeader{
@@ -346,7 +375,7 @@ p2 {
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: monospace;
-        font-size: 100px;
+        font-size: 200px;
     }
 
 
