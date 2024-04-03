@@ -151,7 +151,7 @@ p2 {
 .flexContainer2{
     display: flex;
     flex-direction: row-reverse;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     justify-content: flex-end;
     align-items: center;
@@ -296,8 +296,71 @@ p2 {
         color: #f3f3f3;
     }
     
-    
+    h13{
+        color: red;
+        font-size: 40px;
+        font-family:'porter sans block' ;
+    }
 
+    h14{
+        color: red;
+        font-size: 40px;
+        font-family: 'porter sans block';
+    }
+
+    h15{
+        color: red;
+        font-size: 40px;
+        font-family: 'porter sans block';
+    }
+
+    h16{
+        color: red;
+        font-size: 40px;
+        font-family: 'porter sans block';
+    }
+
+h17{
+    color: red;
+    font-size: 40px;
+    font-family: 'porter sans block';
+}
+
+h18{
+    color: red;
+    font-size: 40px;
+    font-family: 'porter sans block';
+}
+    
+p7{
+    color: gray;
+    font-size: 30px;
+}
+
+p8{
+    color: gray;
+    font-size: 30px;
+}
+
+p9{
+    color: gray;
+    font-size: 30px;
+}
+
+p10{
+    color: gray;
+    font-size: 30px;
+}
+
+p11{
+    color: gray;
+    font-size: 30px;
+}
+
+p12{
+    color: gray;
+    font-size: 30px;
+}
 
     .flexItemn4{
         padding: 2em;
@@ -344,6 +407,7 @@ p2 {
         font-size: 15px;
         color: white;
     }
+    
 
     button {
         background-color: #f01313;
@@ -376,7 +440,22 @@ p2 {
         transform: translate(-50%, -50%);
         font-family: monospace;
         font-size: 200px;
+        justify-content: center;
+        align-items: center;
     }
+
+    
+
+   .flexItem{
+    padding: 50px;
+    flex: 50%;
+}
+
+.flexItemFlights img{
+    width: 100%;
+}
+
+
 
 
 
