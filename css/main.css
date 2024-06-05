@@ -29,14 +29,7 @@ nav {
    padding-left: 10px;
 }
 
-.nav-list {
-    float: right;
-}
 
-.nav-item{
-    padding: 5px 2px;
-    background-color: transparent;
-}
 
 /* NAVBAR */
 
@@ -93,9 +86,11 @@ header {
 
 .headerSection{
     background-image: url(../Assets/Images/homePageHeader.png);
+    background-position: center;
+
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
    
 }
 
@@ -146,9 +141,23 @@ padding: 2em 0;
 }
 
 .hero-heading{
-    width: 400px;
+    width: 500px;
+    font-size: 50px;
+    color: whitesmoke;
+    letter-spacing: 10px;
+    text-shadow: 4px 0 red, -4px 0 red, 0 4px red, 0 -4px red,
+    2px 2px red, -4px -4px red, 4px -4px red, -4px 4px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.hero-par{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content-area{
+    margin-top: 15%;
+}
 
 h1{ 
     font-family: 'porter sans block';
@@ -163,16 +172,29 @@ h2{
 
 h3{
     color: aqua;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 h4{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bolder;
     
+}
+
+.style-b{
+    padding: 15px 60px;
+    background-color: red;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 p1 {
     color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    width: 250px;
 }
 
 h5{
@@ -181,14 +203,30 @@ h5{
 }
 
 h6{
-    font-size: 30px;
+    color: #430076;
+    font-size: 40px;
+    font-weight: bolder;
 } 
 
 p2 {
     color: rgb(39, 0, 76);
+    font-weight: 100;
+    width: 250px;
+    font-size: 20px;
+
 }
 
+.b-upcoming{
+    color: whitesmoke;
+    padding: 15px 50px;
+    font-size: 20px;
+}
 
+.contain-shuttle{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .flexContainer2{
@@ -559,19 +597,62 @@ p12{
   }
 
     
-
+.feat-heading{
+    font-size: 20px;
+}
     
+footer{
+    height: 450px;
+    background-color: white;
+    padding: 50px 20px;
+}
 
+.foot-p{
+    font-size: 19px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
 
+.foot-mid{
+    padding-left: 100px;
+}
+
+.foot-h{
     
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
 
+.foot-link a{
+    color: gray;
+    text-decoration: none;
+}
 
+.foot-link a:hover{
+    color: #7313f0;
+}
 
+.foot-adj{
+    padding: 50px 0px;
+}
 
+.foot-img{
+    width: 80px;
+   display: inline-block;
+}
 
+.foot-tex{
+    color: #474747;
+    float: left;
+}
 
+.foot-tex2{
+    color: #474747;
+    float: right;
 
-
-
+}
 
 
