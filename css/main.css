@@ -20,6 +20,12 @@ nav {
     margin-right: 10%;
     margin-top: 15px;
     z-index: +1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
 
 }
 
@@ -118,8 +124,6 @@ body{
     background-color: whitesmoke;
     padding: 2em 0;
 }
-
-
 
 .white h13{
     color: #000000;
@@ -311,9 +315,48 @@ padding: 2em 0;
     align-items: flex-start;
 }
 
+.flexC {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+    background-color: #430076;
+    color: rgb(224, 224, 224);
+    padding: 0px 0px;
+    align-items: flex-start;
+}
+
 .flexItem2{
     padding: 50px;
     flex: 50%;
+}
+
+.flexI{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex: 50%;
+}
+.sort-st{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.sort-sty {
+    color: #430076;
+    background-color:#fbfbfba5;
+    padding: 10px 15px;
+    border-radius: 10%;
+}
+.sort-styl {
+    color: #430076;
+    background-color:#fbfbfba5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 70px;
+    border-radius: 8%;
 }
 
 .flexItem2 img{
@@ -398,8 +441,10 @@ p2 {
 
 .b-upcoming{
     color: whitesmoke;
+    background-color: red;
     padding: 15px 50px;
     font-size: 20px;
+    margin-left: 43%;
 }
 
 .contain-shuttle{
@@ -515,6 +560,7 @@ p2 {
         min-height: 300px;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
 
     }
 
