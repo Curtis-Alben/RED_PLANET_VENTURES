@@ -13,11 +13,11 @@ span.onclick = function() {
     modal.style.display = "none";
   }
 
-// window.onclick = function(event) {
-//     if (event.target == modal) {
-//       modal.style.display = "none";
-//     }
-//   }
+window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
 
 
 flightsArray = [
@@ -88,9 +88,9 @@ function addToCart(){
 
 // minus and plus increment to change innerHTML
 
-let plus = document.querySelectorAll(".plus");
-let minus = document.querySelectorAll(".min");
-let add = document.querySelectorAll(".add");
+let plus = document.querySelector("#plus");
+let minus = document.querySelector("#min");
+let add = document.querySelector("#add");
 let marsCount = 1;
 let neptuneCount = 1;
 let giantCount = 1;
@@ -156,25 +156,13 @@ minus.onclick = function() {
         marsCountVal.innerHTML = flightsArray[0].count;}
   }
 
-
 add.onclick = function() {
+  console.log(flightsArray)
   if(!bookedFlightsArray.includes(flightsArray[0]) && add.name == "mars"){
     bookedFlightsArray.push(flightsArray[0]);
     addToCart();
 
-  } else if (!bookedFlightsArray.includes(flightsArray[1]) && add.name == "neptune"){
-    bookedFlightsArray.push(flightsArray[1]);
-    addToCart();
-
-  }else if (!bookedFlightsArray.includes(flightsArray[2]) && add.name == "giant"){
-    bookedFlightsArray.push(flightsArray[2]);
-    addToCart();
-
-  }
-
+  } 
 }
 
 // creates divs with name of flight and amount of tickets
-
-
-
