@@ -44,12 +44,93 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <form action="">
-      <h2>Cart</h2>
+    
+      <h1 class="text-secondary">Cart</h1>
       <div id="cart-content">
+        <div class="row">
+          <div class="col">
+            <p>The Classic Mars Experience</p>
+          </div>
+          <div class="col">
+            <button class="cart-btn"><a name="mars" id="min">-</a> <span class="flight-inc-count mars-count">0</span> <a name="mars" id="plus">+</a></button>
+          </div>
+          <div class="col">
+            <p class="mars-total">0</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p>Neptune's Cosmic Dive</p>
+          </div>
+          <div class="col">
+            <button class="cart-btn"><a id="min-nept">-</a> <span class="flight-inc-count nept-count">0</span> <a id="plus-nept">+</a></button>
+          </div>
+          <div class="col">
+            <p class="nept-total">0</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p>The Giant's Journey</p>
+          </div>
+          <div class="col">
+            <button class="cart-btn"><a id="min-giant">-</a> <span class="flight-inc-count giant-count">0</span> <a id="plus-giant">+</a></button>
+          </div>
+          <div class="col">
+            <p class="giant-total">0</p>
+          </div>
+        </div>   
+
+        <div class="row">
+          <div class="col">
+            <p>Ring Around a Saturn</p>
+          </div>
+          <div class="col">
+            <button class="cart-btn"><a id="min-sat">-</a> <span class="flight-inc-count sat-count">0</span> <a id="plus-sat">+</a></button>
+          </div>
+          <div class="col">
+            <p class="sat-total">0</p>
+          </div>
+        </div>   
+
+        <div class="row">
+          <div class="col">
+            <p>Uranus Uncharted</p>
+          </div>
+          <div class="col">
+            <button class="cart-btn"><a id="min-un">-</a> <span class="flight-inc-count un-count">0</span> <a id="plus-un">+</a></button>
+          </div>
+          <div class="col">
+            <p class="un-total">0</p>
+          </div>
+        </div>   
+
+        <div class="row">
+          <div class="col">
+            <p>Moonlight Meander</p>
+          </div>
+          <div class="col">
+            <button class="cart-btn"><a id="min-m">-</a> <span class="flight-inc-count m-count">0</span> <a id="plus-m">+</a></button>
+          </div>
+          <div class="col">
+            <p class="m-total">0</p>
+          </div>
+        </div>   
         
+        <div class="row">
+          <div class="col">
+            <h1>Total</h1>
+          </div>
+          <div class="col">
+            <h1>=</h1>
+          </div>
+          <div class="col">
+            <h1 class="total">0</h1>
+          </div>
+        </div>
       </div>
-    </form>
   </div>
 
 </div>
@@ -178,7 +259,7 @@
         Embark on a voyage to Neptune aboard the "Neptune Voyager". Witness surreal vistas of swirling clouds and rings. Experience weightlessness and explore frigid oceans. Engage in thrilling spacewalks , observe celestial phenomena and savour gourmet space cuisine. An unforgettable adventure awaits , blending luxury with cosmic exploration.
 
     </p>
-    <div><button class="flight-inc-btn"><a name="neptune" class="min">-</a> <span class="flight-inc-count neptune">1</span> <a name="neptune" class="plus">+</a></button><button class="flight-book-btn"  type="button"><a name="neptune" class="add">Add to Cart</a></button></div>
+    <div><button class="flight-inc-btn"><a name="neptune" id="min">-</a> <span class="flight-inc-count neptune">1</span> <a name="neptune" id="plus">+</a></button><button class="flight-book-btn"  type="button"><a name="neptune" id="add">Add to Cart</a></button></div>
     
     <hr>
 
